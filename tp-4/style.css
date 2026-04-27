@@ -1,0 +1,28 @@
+@media (min-width: 400px) {
+  #cuerpo {backgorund-color: rgb(40,60,80) }
+}
+@media (max-width: 800px) {
+#cuerpo h1 {align-self: center}
+ @media (orientacion: lanscape) {
+   article {max-widht: 50ch}
+ }
+  @media (min-height: 200px) {
+    #cuerpo h1 {background-color: brown; }
+  }
+  @media print {
+    p {font-family: serif}
+  }
+  @media (prefers-color-scheme: light){
+    #body {background-color: #DDD;
+           color: #111;}
+  }
+  @media screen and (max-width: 900px) and (min-width: 800px){
+    img {display: none;}
+  }
+  @media screen and (max-width: 400px) and (min-width: 200px){
+    img {height: 400px;
+         ibject-fit: cover;}
+  }
+  @media (-webkit-min-device-pixel-ratio-: 2){
+    article {backgorund-color: #667;}
+  }
