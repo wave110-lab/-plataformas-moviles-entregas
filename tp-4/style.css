@@ -14,10 +14,10 @@ article {max-widht: 50ch}
   p {font-family: serif}
   }
   @media (prefers-color-scheme: light){
-    #body {background-color: #DD;
-           color: #11;}
-   h1 {background-color: #DD;
-       color: #11;}}
+    #body {background-color: #DDD;
+           color: #111;}
+   h1 {background-color: #DDD;
+       color: #111;}}
 
    @media screen and (hover:none) {
     a { color: #212;
